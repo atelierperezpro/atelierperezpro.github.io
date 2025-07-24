@@ -1,68 +1,68 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Perez Atelier - Climatisation & Nettoyage Auto</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/png" href="favicon.png" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perez Atelier – Climatisation & Nettoyage auto</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
-
-  <header class="main-header">
-    <img src="logo.png" alt="Logo Perez Atelier" class="logo">
-    <h1><span class="logo-initials">P</span><span class="logo-initials">A</span> - Perez Atelier</h1>
-    <p class="tagline">Climatisation & Nettoyage Auto</p>
-    <a href="https://calendly.com/perezatelier31" target="_blank" class="btn-header">Prendre rendez-vous</a>
+  <header class="hero">
+    <div class="overlay">
+      <h1>Perez Atelier</h1>
+      <p>Spécialiste climatisation automobile & soins esthétiques auto</p>
+      <a href="https://calendly.com/perezatelier31" target="_blank" class="btn">Prendre rendez-vous</a>
+    </div>
   </header>
 
-  <main>
-    <section class="hero-section">
-      <h2>Spécialiste en Climatisation Automobile</h2>
-      <ul class="service-list">
-        <li><strong>🔹 Recharge R1234yf :</strong> 140€</li>
-        <li><strong>🔹 Recharge R134a :</strong> 80€</li>
-        <li><strong>🔹 Recherche de fuite à l’azote hydrogéné :</strong> 60€</li>
+  <section class="section">
+    <h2>Climatisation Auto</h2>
+    <p class="intro">Nous intervenons sur tous types de véhicules avec précision et professionnalisme.</p>
+    <ul class="pricing">
+      <li><strong>Recharge gaz R134a (ancien gaz)</strong> : 80€</li>
+      <li><strong>Recharge gaz R1234yf (nouveau gaz)</strong> : 140€</li>
+      <li><strong>Recherche de fuite à l’azote hydrogéné</strong> : 60€</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Nettoyage automobile (à partir de janvier 2027)</h2>
+    <p class="intro">Réservez dès maintenant pour des prestations haut de gamme.</p>
+
+    <div class="pack">
+      <h3>✨ Pack Essentiel</h3>
+      <ul>
+        <li>Prélavage mousse + lavage manuel sans micro-rayures</li>
+        <li>Décontamination légère</li>
+        <li>Aspiration complète intérieur</li>
+        <li>Dépoussiérage plastiques et vitres</li>
       </ul>
-    </section>
+    </div>
 
-    <section class="nettoyage-section">
-      <h2>✨ Nettoyage automobile haut de gamme</h2>
-      <p class="dispo-date">Disponible à partir de <strong>janvier 2027</strong></p>
+    <div class="pack">
+      <h3>🌟 Pack Sublime</h3>
+      <ul>
+        <li>Toutes les prestations du pack Essentiel</li>
+        <li>Shampoing des tapis et moquettes</li>
+        <li>Dégraissage des plastiques</li>
+        <li>Traitement nourrissant cuir / tissu</li>
+      </ul>
+    </div>
 
-      <div class="pack">
-        <h3>Pack Essentiel</h3>
-        <ul>
-          <li>Prélavage mousse + lavage manuel sans micro-rayures</li>
-          <li>Décontamination légère</li>
-          <li>Nettoyage intérieur rapide (aspirateur + plastiques)</li>
-        </ul>
-      </div>
-
-      <div class="pack">
-        <h3>Pack Sublime</h3>
-        <ul>
-          <li>Inclus Pack Essentiel</li>
-          <li>Shampoing sièges / moquettes</li>
-          <li>Rénovation plastiques + vitres traitées</li>
-        </ul>
-      </div>
-
-      <div class="pack">
-        <h3>Pack Intégral</h3>
-        <ul>
-          <li>Inclus Pack Sublime</li>
-          <li>Traitement céramique extérieur</li>
-          <li>Protection hydrophobe vitres + jantes</li>
-        </ul>
-      </div>
-    </section>
-  </main>
+    <div class="pack">
+      <h3>💎 Pack Intégrale</h3>
+      <ul>
+        <li>Toutes les prestations du pack Sublime</li>
+        <li>Décontamination carrosserie + lustrage</li>
+        <li>Shampoing complet coffre + sellerie</li>
+        <li>Finitions tableau de bord et vitres pro</li>
+      </ul>
+    </div>
+  </section>
 
   <footer>
     <p>&copy; 2025 Perez Atelier – Tous droits réservés</p>
-    <p><a href="mailto:perezatelier31@gmail.com">perezatelier31@gmail.com</a></p>
   </footer>
-
 </body>
 </html>
