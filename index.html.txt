@@ -42,7 +42,7 @@
     <h2>Contact & Rendez-vous</h2>
     <p>Email : <a href="mailto:perezatelier31@gmail.com">perezatelier31@gmail.com</a></p>
     <p>Instagram : <a href="https://instagram.com/perezatelier">@perezatelier</a></p>
-    <div style="min-width:320px;height:630px;" class="calendly-inline-widget" data-url="https://calendly.com/your-placeholder-link" ></div>
+    <div style="min-width:320px;height:630px;" class="calendly-inline-widget" data-url="https://calendly.com/perezatelier"></div>
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
   </section>
 
