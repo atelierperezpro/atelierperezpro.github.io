@@ -2,56 +2,104 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Perez Atelier</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perez Atelier – Climatisation & Nettoyage Auto</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="icon" href="favicon.png" type="image/png" />
 </head>
 <body>
+
   <header>
-    <h1 data-aos="fade-down">Perez Atelier</h1>
-    <p data-aos="fade-up">Climatisation & Nettoyage Auto Haut de Gamme</p>
+    <div class="logo">Perez Atelier</div>
     <nav>
-      <a href="#services">Services</a>
-      <a href="#about">À propos</a>
-      <a href="#contact">Contact</a>
+      <ul>
+        <li><a href="#climatisation">Climatisation</a></li>
+        <li><a href="#nettoyage">Nettoyage Auto</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://calendly.com/perezatelier31" target="_blank">Prendre RDV</a></li>
+      </ul>
     </nav>
   </header>
 
-  <section class="hero" data-aos="fade-up">
-    <h2>L’excellence auto, jusque dans les moindres détails.</h2>
-    <p>Un service haut de gamme pour révéler tout le potentiel de votre véhicule.</p>
-    <a href="#contact" class="btn">Prendre rendez-vous</a>
-  </section>
+  <main>
 
-  <section id="services" class="section" data-aos="fade-right">
-    <h2>Nos Services</h2>
-    <div class="pack"><h3>✨ Pack Essentiel</h3><p>80–120 €</p></div>
-    <div class="pack"><h3>💎 Pack Sublime</h3><p>200–270 €</p></div>
-    <div class="pack"><h3>🛡️ Pack Intégrale</h3><p>390–550 €</p></div>
-    <div class="pack"><h3>❄️ Recharge climatisation</h3><p>Ancien / nouveau gaz</p></div>
-  </section>
+    <section class="hero">
+      <h1>Spécialiste Climatisation & Propreté Automobile</h1>
+      <p>Des services professionnels, sur mesure et haut de gamme.</p>
+      <a href="#climatisation" class="cta">Découvrir nos services</a>
+    </section>
 
-  <section id="about" class="section" data-aos="fade-left">
-    <h2>À propos</h2>
-    <p>Perez Atelier est né d’une passion familiale transmise par Bernard Perez, fondateur de OSclim.</p>
-  </section>
+    <section id="climatisation" class="services">
+      <h2>🌬️ Climatisation Automobile</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Recharge R1234yf</h3>
+          <p>Nouveau gaz conforme aux normes récentes.</p>
+          <span class="price">140€</span>
+        </div>
+        <div class="card">
+          <h3>Recharge R134a</h3>
+          <p>Ancien gaz encore utilisé sur certains véhicules.</p>
+          <span class="price">80€</span>
+        </div>
+        <div class="card">
+          <h3>Recherche de fuite</h3>
+          <p>Test à l'azote hydrogéné pour localiser les fuites.</p>
+          <span class="price">60€</span>
+        </div>
+      </div>
+    </section>
 
-  <section id="contact" class="section contact" data-aos="zoom-in">
-    <h2>Contact & Rendez-vous</h2>
-    <p>Email : <a href="mailto:perezatelier31@gmail.com">perezatelier31@gmail.com</a></p>
-    <p>Instagram : <a href="https://instagram.com/perezatelier">@perezatelier</a></p>
-    <div style="min-width:320px;height:630px;" class="calendly-inline-widget" data-url="https://calendly.com/perezatelier"></div>
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-  </section>
+    <section id="nettoyage" class="services">
+      <h2>🧼 Nettoyage Auto (Disponible dès Janvier 2027)</h2>
+      <p class="coming-soon">Nos prestations de nettoyage automobile haut de gamme seront disponibles à partir de <strong>janvier 2027</strong>.</p>
+      
+      <div class="card-grid">
+        <div class="card">
+          <h3>✨ Pack Essentiel</h3>
+          <ul>
+            <li>Prélavage mousse</li>
+            <li>Lavage manuel sans micro-rayures</li>
+            <li>Décontamination légère</li>
+            <li>Nettoyage jantes et vitres</li>
+          </ul>
+          <a href="#contact" class="btn">Demander un devis</a>
+        </div>
+        <div class="card">
+          <h3>💎 Pack Sublime</h3>
+          <ul>
+            <li>Tout le pack Essentiel +</li>
+            <li>Shampoing sièges & moquettes</li>
+            <li>Protection carrosserie</li>
+            <li>Parfum habitacle</li>
+          </ul>
+          <a href="#contact" class="btn">Demander un devis</a>
+        </div>
+        <div class="card">
+          <h3>🔱 Pack Intégrale</h3>
+          <ul>
+            <li>Tout le pack Sublime +</li>
+            <li>Rénovation plastique & optiques</li>
+            <li>Traitement hydrophobe vitres</li>
+            <li>Finitions professionnelles</li>
+          </ul>
+          <a href="#contact" class="btn">Demander un devis</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>📞 Contact</h2>
+      <p>Pour toute question ou demande de devis, n'hésitez pas à prendre rendez-vous ou à nous écrire.</p>
+      <a href="mailto:perezatelier31@gmail.com" class="btn">Nous écrire</a>
+      <a href="https://calendly.com/perezatelier31" class="btn" target="_blank">Prendre rendez-vous</a>
+    </section>
+
+  </main>
 
   <footer>
-    <p>&copy; 2025 Perez Atelier — Tous droits réservés</p>
+    <p>&copy; 2025 Perez Atelier. Tous droits réservés.</p>
   </footer>
 
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>AOS.init();</script>
-  <script src="script.js"></script>
 </body>
 </html>
